@@ -1,0 +1,31 @@
+body {
+    background-image: url('../img/backvinho.png');
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main {
+    background-image: url('../img/back_div.png');
+    position: absolute;
+
+    border-radius: 20px;
+    width: 1500px;
+    height: 800px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    position: absolute;
+    opacity: 0.1;
+
+    width: 600px;
+    height: 600px;;
+}
